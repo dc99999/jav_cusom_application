@@ -3,7 +3,7 @@ deployAs:
     applicationType: event
     endpoint: /testevent
     scripts:
-     postDeploy: mvn compile && mvn exec:java
+      postDeploy: mvn compile && mvn exec:java
     configuration:
       securedConfiguration:
         - key: CTP_PROJECT_KEY
