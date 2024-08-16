@@ -1,3 +1,6 @@
 [[build.env]]
     name = "GOOGLE_RUNTIME_VERSION"
     value = "17"
+[[build.env]]
+    name = "GOOGLE_ENTRYPOINT"
+    value = "java -jar /jav_cusom_application/eventdemo/target/eventdemo-0.0.1-SNAPSHOT.jar 
